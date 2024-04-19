@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <header>
         <nav className="flex items-center justify-between w-full p-4">
-            <ul className="flex items-center space-x-4">
+            <ul className="flex items-center space-x-10">
             <li>
                 <a
                     className="pointer-events-none flex items-center gap-2 p-8"
@@ -25,10 +25,10 @@ export default function Nav() {
                 </a>
             </li>
             <li>
-                <a href="/about" className="text-blue-500">About</a>
+                <a href="/faq" className="text-blue-500">FAQs</a>
             </li>
             <li>
-                <a href="/faq" className="text-blue-500">FAQs</a>
+                <a href="/contact" className="text-blue-500">Contact</a>
             </li>
             <li>
                <ModeToggle />
