@@ -24,13 +24,12 @@ export default function Nav() {
                     />
                 </a>
             </li>
-
-                <li>
-                    <a href="/" className="text-primary">Home</a>
-                </li>
-                <li>
-                    <a href="/about" className="text-blue-500">About</a>
-                </li>
+            <li>
+                <a href="/about" className="text-blue-500">About</a>
+            </li>
+            <li>
+                <a href="/faq" className="text-blue-500">FAQs</a>
+            </li>
             <li>
                <ModeToggle />
             </li>
